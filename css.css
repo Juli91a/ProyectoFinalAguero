@@ -1,0 +1,65 @@
+body {
+    background-color: bisque;
+}
+
+header {
+    text-align: center;
+    font-family: Courier, monospace;
+}
+
+.tarjeta {
+    height: 400px;
+    width: 300px;
+    margin: 0.5%;
+    padding: 0.5%;
+    text-align: center;
+}
+
+.tarjeta img {
+    max-height: 200px;
+    max-width: 300px;
+}
+
+.cajaProductos {
+    background-color: white;
+    width: 85%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.contenedor {
+    display: flex;
+    border: black 1px solid;
+    margin-bottom: 1%;
+}
+
+.cajaCarrito {
+    background-color: #F99417;
+    width: 15%;
+    border-left: 1px black solid;
+    padding: 1%;
+}
+
+.barraBusqueda {
+    margin-bottom: 1%;
+}
+
+@media (max-width: 600px) {
+    .cajaProductos {
+        width: 70%;
+    }
+
+    .cajaCarrito {
+        width: 30%;
+    }
+
+    .tarjeta img {
+        max-width: 100px;
+        max-width: 200px;
+    }
+
+    .barraBusqueda button {
+        margin: 3px;
+    }
+}
