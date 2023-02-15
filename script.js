@@ -109,6 +109,7 @@ function ejecucionPrograma(productos) {
         cajaCarrito.innerText = ""
         productosEnCarrito.forEach(producto => {
             let tarjetaProducto = document.createElement("div")
+            tarjetaProducto.classList.add("tarjetaCarrito")
             tarjetaProducto.innerHTML += `
         <h3>${producto.nombre}</h3>
         <p>Unidades: ${producto.unidades}</p>
@@ -116,7 +117,6 @@ function ejecucionPrograma(productos) {
         `
             cajaCarrito.appendChild(tarjetaProducto)
         })
-
     }
     function guardarInfo(carrito) {
         localStorage.setItem("carrito", JSON.stringify(carrito))

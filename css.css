@@ -13,6 +13,9 @@ header {
     margin: 0.5%;
     padding: 0.5%;
     text-align: center;
+    border: solid black 1px;
+    border-radius: 5px;
+    background-color: bisque;
 }
 
 .tarjeta img {
@@ -26,6 +29,12 @@ header {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+}
+.tarjetaCarrito{
+    border: solid black 1px;
+    border-radius: 5px;
+    padding-left: 10%;
+    margin-bottom: 2%;
 }
 
 .contenedor {

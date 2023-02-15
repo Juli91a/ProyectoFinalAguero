@@ -4,41 +4,41 @@
         "nombre": "Remera",
         "categoria": "Ropa",
         "precio": "1500",
-        "imgUrl": "./img/remera.jpg"
+        "imgUrl": "./img/remera.png"
     },
     {
         "id": 2,
         "nombre": "Bermuda",
         "categoria": "Ropa",
         "precio": "5500",
-        "imgUrl": "./img/bermuda.jpg"
+        "imgUrl": "./img/bermuda.png"
     },
     {
         "id": 3,
         "nombre": "Zapatillas",
         "categoria": "Ropa",
         "precio": "15000",
-        "imgUrl": "./img/Zapatillas.jpg"
+        "imgUrl": "./img/Zapatillas.png"
     },
     {
         "id": 4,
         "nombre": "Notebook",
         "categoria": "Tecnologia",
         "precio": "150000",
-        "imgUrl": "./img/Notebook.jpg"
+        "imgUrl": "./img/Notebook.png"
     },
     {
         "id": 5,
         "nombre": "Celular",
         "categoria": "Tecnologia",
         "precio": "75000",
-        "imgUrl": "./img/Celular.jpg"
+        "imgUrl": "./img/Celular.png"
     },
     {
         "id": 6,
         "nombre": "Smart Tv",
         "categoria": "Tecnologia",
         "precio": "90000",
-        "imgUrl": "./img/Smart.jpg"
+        "imgUrl": "./img/Smart.png"
     }
 ]
